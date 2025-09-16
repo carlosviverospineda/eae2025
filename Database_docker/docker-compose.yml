@@ -6,7 +6,7 @@ services:
     container_name: postgres_container
     #restart: unless-stopped
     ports:
-      - "80000:5432" #Mapea el puerto 2323 del host al 5432 interno de Postgress
+      - "1234:5432" #Mapea el puerto 2323 del host al 5432 interno de Postgress
     environment:
       POSTGRES_USER: amigo
       POSTGRES_PASSWORD: "elamigo23"
